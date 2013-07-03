@@ -1,0 +1,9 @@
+C:\Users\Evgeniy\projects\CItest\CItest\CItest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Evgeniy\projects\CItest\CItest\CItest\obj\x86\Debug\CItest.Form1.resources
+C:\Users\Evgeniy\projects\CItest\CItest\CItest\obj\x86\Debug\CItest.Properties.Resources.resources
+C:\Users\Evgeniy\projects\CItest\CItest\CItest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Evgeniy\projects\CItest\CItest\CItest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Evgeniy\projects\CItest\CItest\CItest\bin\Debug\CItest.exe
+C:\Users\Evgeniy\projects\CItest\CItest\CItest\bin\Debug\CItest.pdb
+C:\Users\Evgeniy\projects\CItest\CItest\CItest\obj\x86\Debug\CItest.exe
+C:\Users\Evgeniy\projects\CItest\CItest\CItest\obj\x86\Debug\CItest.pdb
