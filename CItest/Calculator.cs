@@ -27,7 +27,7 @@ namespace CItest
                 case Operations.Div:
                     return Math.Round(op1 / op2, decimals);
                 case Operations.Mul:
-                    return Math.Round(op1 * op1, decimals);
+                    return Math.Round(op1 * op2, decimals);
                 default: throw new ArgumentOutOfRangeException("Неизвестная операция");
             }
         }

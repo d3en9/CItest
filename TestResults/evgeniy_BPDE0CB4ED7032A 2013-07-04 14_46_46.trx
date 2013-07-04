@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="881f3fd6-5346-4aa3-96a2-782e36a38d1b" name="evgeniy@BPDE0CB4ED7032A 2013-07-04 14:46:46" runUser="AETP\evgeniy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="afdd1893-7501-4737-bd1f-5c876dde833e">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="evgeniy_BPDE0CB4ED7032A 2013-07-04 14_46_46">
+      <DeploymentItem filename="C:\Users\Evgeniy\projects\CItest\CItest\CItest\bin\Debug\CItest.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-04T14:46:46.1966061+04:00" queuing="2013-07-04T14:46:46.2966061+04:00" start="2013-07-04T14:46:46.3216061+04:00" finish="2013-07-04T14:46:46.9946061+04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCalculatorDiv" storage="c:\users\evgeniy\projects\citest\citest\tests\bin\debug\tests.dll" id="1d450a6c-4ee5-0321-fe4d-3e4904050c68">
+      <Execution id="21926192-31ac-4655-8d98-9a16dc7389b3" />
+      <TestMethod codeBase="C:/Users/Evgeniy/projects/CItest/CItest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CalculatorTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculatorDiv" />
+    </UnitTest>
+    <UnitTest name="TestCalculatorMul" storage="c:\users\evgeniy\projects\citest\citest\tests\bin\debug\tests.dll" id="77f928c8-4b7c-7f6b-4cd2-779079ed7b78">
+      <Execution id="e6666d8e-cd66-4c8d-b5d0-46b315efad01" />
+      <TestMethod codeBase="C:/Users/Evgeniy/projects/CItest/CItest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CalculatorTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculatorMul" />
+    </UnitTest>
+    <UnitTest name="TestCalculatorSub" storage="c:\users\evgeniy\projects\citest\citest\tests\bin\debug\tests.dll" id="ceef37da-7a1a-5812-e2e2-58b6fbca56e4">
+      <Execution id="70d593b3-3629-419f-b113-28c93d679398" />
+      <TestMethod codeBase="C:/Users/Evgeniy/projects/CItest/CItest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CalculatorTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculatorSub" />
+    </UnitTest>
+    <UnitTest name="TestCalculatorAdd" storage="c:\users\evgeniy\projects\citest\citest\tests\bin\debug\tests.dll" id="359b83c7-6498-eae3-2dde-7f234440009e">
+      <Execution id="15e3c91e-ddbc-4cb1-9650-2f8f68d94e87" />
+      <TestMethod codeBase="C:/Users/Evgeniy/projects/CItest/CItest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CalculatorTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculatorAdd" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1d450a6c-4ee5-0321-fe4d-3e4904050c68" executionId="21926192-31ac-4655-8d98-9a16dc7389b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="359b83c7-6498-eae3-2dde-7f234440009e" executionId="15e3c91e-ddbc-4cb1-9650-2f8f68d94e87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f928c8-4b7c-7f6b-4cd2-779079ed7b78" executionId="e6666d8e-cd66-4c8d-b5d0-46b315efad01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceef37da-7a1a-5812-e2e2-58b6fbca56e4" executionId="70d593b3-3629-419f-b113-28c93d679398" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="21926192-31ac-4655-8d98-9a16dc7389b3" testId="1d450a6c-4ee5-0321-fe4d-3e4904050c68" testName="TestCalculatorDiv" computerName="BPDE0CB4ED7032A" duration="00:00:00.0184538" startTime="2013-07-04T14:46:46.4376061+04:00" endTime="2013-07-04T14:46:46.8736061+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21926192-31ac-4655-8d98-9a16dc7389b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="15e3c91e-ddbc-4cb1-9650-2f8f68d94e87" testId="359b83c7-6498-eae3-2dde-7f234440009e" testName="TestCalculatorAdd" computerName="BPDE0CB4ED7032A" duration="00:00:00.0003473" startTime="2013-07-04T14:46:46.8766061+04:00" endTime="2013-07-04T14:46:46.8856061+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15e3c91e-ddbc-4cb1-9650-2f8f68d94e87">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6666d8e-cd66-4c8d-b5d0-46b315efad01" testId="77f928c8-4b7c-7f6b-4cd2-779079ed7b78" testName="TestCalculatorMul" computerName="BPDE0CB4ED7032A" duration="00:00:00.0002871" startTime="2013-07-04T14:46:46.8886061+04:00" endTime="2013-07-04T14:46:46.8936061+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6666d8e-cd66-4c8d-b5d0-46b315efad01">
+    </UnitTestResult>
+    <UnitTestResult executionId="70d593b3-3629-419f-b113-28c93d679398" testId="ceef37da-7a1a-5812-e2e2-58b6fbca56e4" testName="TestCalculatorSub" computerName="BPDE0CB4ED7032A" duration="00:00:00.0003633" startTime="2013-07-04T14:46:46.8976061+04:00" endTime="2013-07-04T14:46:46.9026061+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70d593b3-3629-419f-b113-28c93d679398">
+    </UnitTestResult>
+  </Results>
+</TestRun>
