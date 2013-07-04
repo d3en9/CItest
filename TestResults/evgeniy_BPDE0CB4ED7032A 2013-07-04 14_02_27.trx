@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="df3483e0-1744-4914-8836-f8f79e344850" name="evgeniy@BPDE0CB4ED7032A 2013-07-04 14:02:27" runUser="AETP\evgeniy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="afdd1893-7501-4737-bd1f-5c876dde833e">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="evgeniy_BPDE0CB4ED7032A 2013-07-04 14_02_27">
+      <DeploymentItem filename="C:\Users\Evgeniy\projects\CItest\CItest\CItest\bin\Debug\CItest.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-04T14:02:27.7862191+04:00" queuing="2013-07-04T14:02:30.7762191+04:00" start="2013-07-04T14:02:31.1272191+04:00" finish="2013-07-04T14:02:31.8832191+04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCalculatorAdd" storage="c:\users\evgeniy\projects\citest\citest\tests\bin\debug\tests.dll" id="359b83c7-6498-eae3-2dde-7f234440009e">
+      <Execution id="fa82ffef-58ce-4d4f-98d1-9d04ea5f1db6" />
+      <TestMethod codeBase="C:/Users/Evgeniy/projects/CItest/CItest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CalculatorTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculatorAdd" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="359b83c7-6498-eae3-2dde-7f234440009e" executionId="fa82ffef-58ce-4d4f-98d1-9d04ea5f1db6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fa82ffef-58ce-4d4f-98d1-9d04ea5f1db6" testId="359b83c7-6498-eae3-2dde-7f234440009e" testName="TestCalculatorAdd" computerName="BPDE0CB4ED7032A" duration="00:00:00.0280784" startTime="2013-07-04T14:02:31.1532191+04:00" endTime="2013-07-04T14:02:31.8192191+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa82ffef-58ce-4d4f-98d1-9d04ea5f1db6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

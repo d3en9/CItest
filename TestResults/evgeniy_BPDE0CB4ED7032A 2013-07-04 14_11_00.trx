@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0e71c995-c205-4272-8fec-8952b610af90" name="evgeniy@BPDE0CB4ED7032A 2013-07-04 14:11:00" runUser="AETP\evgeniy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="afdd1893-7501-4737-bd1f-5c876dde833e">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="evgeniy_BPDE0CB4ED7032A 2013-07-04 14_11_00">
+      <DeploymentItem filename="C:\Users\Evgeniy\projects\CItest\CItest\CItest\bin\Debug\CItest.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-04T14:11:00.4972240+04:00" queuing="2013-07-04T14:11:00.5882331+04:00" start="2013-07-04T14:11:00.6022345+04:00" finish="2013-07-04T14:11:01.0892832+04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCalculatorAdd" storage="c:\users\evgeniy\projects\citest\citest\tests\bin\debug\tests.dll" id="359b83c7-6498-eae3-2dde-7f234440009e">
+      <Execution id="20855dd4-e364-4d99-a416-56fd89d89653" />
+      <TestMethod codeBase="C:/Users/Evgeniy/projects/CItest/CItest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CalculatorTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculatorAdd" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="359b83c7-6498-eae3-2dde-7f234440009e" executionId="20855dd4-e364-4d99-a416-56fd89d89653" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="20855dd4-e364-4d99-a416-56fd89d89653" testId="359b83c7-6498-eae3-2dde-7f234440009e" testName="TestCalculatorAdd" computerName="BPDE0CB4ED7032A" duration="00:00:00.0515993" startTime="2013-07-04T14:11:00.6472390+04:00" endTime="2013-07-04T14:11:01.0152758+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20855dd4-e364-4d99-a416-56fd89d89653">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;0,1&gt;. Фактически: &lt;0,0999999999999996&gt;. </Message>
+          <StackTrace>   в Tests.CalculatorTest.TestCalculatorAdd() в C:\Users\Evgeniy\projects\CItest\CItest\Tests\CalculatorTest.cs:строка 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

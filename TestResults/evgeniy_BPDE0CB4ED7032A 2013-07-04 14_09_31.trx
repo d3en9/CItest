@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bdf7f74e-8079-415f-843d-e6d994302118" name="evgeniy@BPDE0CB4ED7032A 2013-07-04 14:09:31" runUser="AETP\evgeniy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="afdd1893-7501-4737-bd1f-5c876dde833e">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="evgeniy_BPDE0CB4ED7032A 2013-07-04 14_09_31">
+      <DeploymentItem filename="C:\Users\Evgeniy\projects\CItest\CItest\CItest\bin\Debug\CItest.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-04T14:09:31.4603212+04:00" queuing="2013-07-04T14:09:31.5533305+04:00" start="2013-07-04T14:09:31.5973349+04:00" finish="2013-07-04T14:09:32.0233775+04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCalculatorSub" storage="c:\users\evgeniy\projects\citest\citest\tests\bin\debug\tests.dll" id="ceef37da-7a1a-5812-e2e2-58b6fbca56e4">
+      <Execution id="e86e8a27-9e40-495a-900f-8b4257edf2d2" />
+      <TestMethod codeBase="C:/Users/Evgeniy/projects/CItest/CItest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CalculatorTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculatorSub" />
+    </UnitTest>
+    <UnitTest name="TestCalculatorAdd" storage="c:\users\evgeniy\projects\citest\citest\tests\bin\debug\tests.dll" id="359b83c7-6498-eae3-2dde-7f234440009e">
+      <Execution id="0ca032d9-cd98-459a-97a0-6f23c5ccd949" />
+      <TestMethod codeBase="C:/Users/Evgeniy/projects/CItest/CItest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CalculatorTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculatorAdd" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="359b83c7-6498-eae3-2dde-7f234440009e" executionId="0ca032d9-cd98-459a-97a0-6f23c5ccd949" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceef37da-7a1a-5812-e2e2-58b6fbca56e4" executionId="e86e8a27-9e40-495a-900f-8b4257edf2d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0ca032d9-cd98-459a-97a0-6f23c5ccd949" testId="359b83c7-6498-eae3-2dde-7f234440009e" testName="TestCalculatorAdd" computerName="BPDE0CB4ED7032A" duration="00:00:00.0231584" startTime="2013-07-04T14:09:31.6033355+04:00" endTime="2013-07-04T14:09:31.9663718+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ca032d9-cd98-459a-97a0-6f23c5ccd949">
+    </UnitTestResult>
+    <UnitTestResult executionId="e86e8a27-9e40-495a-900f-8b4257edf2d2" testId="ceef37da-7a1a-5812-e2e2-58b6fbca56e4" testName="TestCalculatorSub" computerName="BPDE0CB4ED7032A" duration="00:00:00.0011263" startTime="2013-07-04T14:09:31.9723724+04:00" endTime="2013-07-04T14:09:31.9903742+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e86e8a27-9e40-495a-900f-8b4257edf2d2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

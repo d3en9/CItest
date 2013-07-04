@@ -1,0 +1,7 @@
+C:\Users\Evgeniy\projects\CItest\CItest\Tests\bin\Debug\Tests.dll
+C:\Users\Evgeniy\projects\CItest\CItest\Tests\bin\Debug\Tests.pdb
+C:\Users\Evgeniy\projects\CItest\CItest\Tests\bin\Debug\CItest.exe
+C:\Users\Evgeniy\projects\CItest\CItest\Tests\bin\Debug\CItest.pdb
+C:\Users\Evgeniy\projects\CItest\CItest\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Evgeniy\projects\CItest\CItest\Tests\obj\Debug\Tests.dll
+C:\Users\Evgeniy\projects\CItest\CItest\Tests\obj\Debug\Tests.pdb

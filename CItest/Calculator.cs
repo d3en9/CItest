@@ -17,16 +17,17 @@ namespace CItest
     {
         public double Eval(double op1, double op2, Operations operation)
         {
+            int decimals = 3;
             switch (operation)
             {
                 case Operations.Add:
-                    return op1 + op2;
+                    return Math.Round(op1 + op2, decimals);
                 case Operations.Sub:
-                    return op1 - op2;
+                    return Math.Round(op1 - op2, decimals);
                 case Operations.Div:
-                    return op1 / op2;
+                    return Math.Round(op1 / op2, decimals);
                 case Operations.Mul:
-                    return op1 * op1;
+                    return Math.Round(op1 * op1, decimals);
                 default: throw new ArgumentOutOfRangeException("Неизвестная операция");
             }
         }
